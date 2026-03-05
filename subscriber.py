@@ -4,6 +4,7 @@ import socket
 import struct
 import time
 
+
 HEADER_FMT = "!IQH8s2x"  # 24 bytes
 HEADER_SZ = struct.calcsize(HEADER_FMT)
 
