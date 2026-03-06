@@ -3,7 +3,7 @@ import argparse
 import socket
 import struct
 import time
-#v1 ilina
+#v2 ilina
 
 HEADER_FMT = "!IQH8s2x"  # 24 bytes
 HEADER_SZ = struct.calcsize(HEADER_FMT)
